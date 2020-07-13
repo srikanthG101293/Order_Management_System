@@ -34,7 +34,7 @@ namespace BusinessLayer
                     order.Weight = Convert.ToInt32(dt.Rows[i]["Weight"]);
                     order.Height = Convert.ToInt32(dt.Rows[i]["Height"]);
                     order.OrderStatus = Convert.ToString(dt.Rows[i]["ImageName"]);
-                    order.OrderedDate = Convert.ToString(dt.Rows[i]["OrderedDate"]);
+                    order.OrderedDate = Convert.ToString(dt.Rows[i]["OrderedDate"]);               
                     orderList.Add(order);
                 }
             }

@@ -167,6 +167,7 @@ namespace DataAccessLayer
                 smtp.Host = "smtp.gmail.com"; //for gmail host  
                 smtp.EnableSsl = true;
                 smtp.UseDefaultCredentials = false;
+                //Note : Here you can use your live credentials
                 smtp.Credentials = new NetworkCredential("sreekarsree2693@gmail.com", "********");
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Send(message);

@@ -21,6 +21,7 @@ namespace ModelEntity
         public string OrderedDate { get; set; }
         public string SKU { get; set; }
         public string Barcode { get; set; }
+
     }
 
 }
